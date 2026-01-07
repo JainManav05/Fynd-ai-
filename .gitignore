@@ -1,0 +1,49 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite3
+reviews.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Reflex
+.web/
+assets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+test_db_connection.py
+
+# Documentation (keep only main README)
+COMPLETE_SETUP_GUIDE.md
+CORRECTED_COMMANDS.txt
+MYSQL_CONFIG_SUMMARY.md
+RUN_COMMANDS.txt

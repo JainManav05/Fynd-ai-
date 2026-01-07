@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+reflex
+sqlalchemy
+pydantic
+pandas
+scikit-learn
+google-generativeai
+python-dotenv
+requests
+openai
+pymysql
+cryptography
