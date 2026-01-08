@@ -28,7 +28,15 @@ def review_row(review):
 def admin_dashboard():
     return rx.vstack(
         rx.heading("Admin Dashboard", size="8"),
-        rx.button("Refresh", on_click=AdminState.load_reviews),
+        
+        rx.hstack(
+            rx.button("Refresh", on_click=AdminState.load_reviews),
+            rx.link(
+                rx.button("Go to User Dashboard", variant="outline"),
+                href="/"
+            ),
+            spacing="4"
+        ),
         
         rx.table.root(
             rx.table.header(

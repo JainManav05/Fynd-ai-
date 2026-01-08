@@ -38,6 +38,11 @@ def user_dashboard():
             rx.heading("Submit Your Review", size="8"),
             rx.text("Share your experience with us!"),
             
+            rx.link(
+                rx.button("Go to Admin Dashboard", variant="outline", size="2"),
+                href="/admin"
+            ),
+            
             rx.select(
                 [1, 2, 3, 4, 5],
                 value=UserState.rating,
